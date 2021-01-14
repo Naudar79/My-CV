@@ -1,0 +1,23 @@
+#fond {
+    background-color: grey;
+}
+
+.entete {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.cv {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-color: white;
+}
+
+.wrapper {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
