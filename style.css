@@ -1,19 +1,29 @@
-#fond {
+body {
     background-color: grey;
 }
 
 .entete {
+    margin-top: 20px;
+    padding-left: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    background: linear-gradient(orange, rgba(255, 166, 0, 0.027));
+}
+
+img {
+    padding-left: 10px;
+    max-width: 185px;
+    height: auto;
+    border-radius: 25px;
 }
 
 .cv {
-    margin-top: auto;
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
     background-color: white;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .wrapper {
