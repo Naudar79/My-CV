@@ -1,5 +1,6 @@
 body {
     background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .entete {
@@ -7,7 +8,6 @@ body {
     padding-left: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: linear-gradient(orange, rgba(255, 166, 0, 0.027));
 }
 
 img {
@@ -22,7 +22,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    background-color: white;
+    background: linear-gradient(orange, rgba(255, 255, 255, 0.884));
     border-radius: 50px 50px 50px 50px;
 }
 
