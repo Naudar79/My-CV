@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 img {
@@ -158,4 +158,12 @@ p {
 a {
     text-decoration: none;
     color: rgb(39, 38, 38);
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: orangered;
+    font-size: medium;
+    text-align: center;
 }
