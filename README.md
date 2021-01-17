@@ -15,5 +15,3 @@ This repository contain my exercise from Be Code.
 
 ### Mode :
 Solo
-
-

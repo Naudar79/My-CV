@@ -5,7 +5,7 @@ body {
 }
 
 .tete {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     margin-top: 20px;
     padding-left: 10px;
     padding-bottom: 20px;
@@ -15,9 +15,9 @@ body {
     padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1190px;
     background: white;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 0px 0px;
 }
 
 .titre {
@@ -30,12 +30,14 @@ body {
     grid-column: 2;
     grid-row: 4;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .image {
     grid-column: 1;
     grid-row: 2 / 5;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 h1 {
@@ -54,15 +56,26 @@ img {
     border-radius: 25px;
 }
 
+.about {
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+}
+
+blockquote {
+    font-style: italic;
+}
+
 h3 {
     color: orangered;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h4 {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 p {
@@ -78,7 +91,7 @@ p {
     margin-right: auto;
     width: 1200px;
     background: white;
-    border-radius: 50px 50px 50px 50px;
+    /*border-radius: 50px 50px 50px 50px;*/
 }
 
 .wrapper {
@@ -118,47 +131,26 @@ p {
     background-color: lightgrey;
 }
 
-.cont {
-    padding-top: 10px;
+footer {
+    padding-top: 25px;
     padding-left: 190px;
     padding-bottom: 10px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     margin-left: auto;
     margin-right: auto;
     width: 1010px;
     background: white;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 0px 0px 50px 50px;
 }
 
-#tel {
-    font-size: 14px;
+.cont {
+    font-size: medium;
     border-left: 5px solid orangered;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
-    margin-right: 10px;
-    background-color: lightgrey;
-    color: rgb(39, 38, 38);
-}
-
-#mail {
-    font-size: 14px;
-    border-left: 5px solid orangered;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    background-color: lightgrey;
-    color: rgb(39, 38, 38);
-}
-
-#link {
-    font-size: 14px;
-    border-left: 5px solid orangered;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    /*margin-left: 20px;*/
+    margin-right: 150px;
     background-color: lightgrey;
     color: rgb(39, 38, 38);
 }
